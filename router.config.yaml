@@ -1,0 +1,17 @@
+supergraph:
+  source: file
+  path: ./supergraph.graphql
+
+headers:
+  all:
+    request:
+      - propagate:
+          named:
+            - foo-bar
+
+http:
+  workers: 1
+
+log:
+  format: pretty-tree
+  level: debug

@@ -1,0 +1,7 @@
+[package]
+name = "graphql-poc"
+version = "0.1.0"
+edition = "2024"
+
+[dependencies]
+hive-router = "0.0.58"
